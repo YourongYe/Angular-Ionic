@@ -11,4 +11,13 @@ Example 2:
 <span class="font">{{answerOptions[2]}}</span>
 ```
 
+# Function call in HTML
+In ionic:
+```html
+<ion-button shape="round" fill="outline" class="choice-button" (click)="updateProgress(4)">
+```
 
+In HTML
+```html
+<button onclick="myFunction()">Click me</button>
+```
