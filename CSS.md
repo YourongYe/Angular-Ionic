@@ -84,8 +84,32 @@ z-index: 1    （最上层）
 
 ```css
 .video-container{
-  position: absolute; // 在当前的section里的位置依次往后排，位置由其他东西决定；
+  position: relative; // 在当前的section里的位置依次往后排，位置由其他东西决定；defualt setting
   height: 95%;
   width: 90%;
 }
 ```
+
+# Size Setup
+```css
+.question-card{
+  height: 200px; // 设置当前section的长宽，可以是px，也可以是%；%更适用于多种屏幕display的情况
+  width: 300px;
+}
+```
+
+# Spacing
+margin: outer space
+padding: inner space
+```css
+.video-container{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.card-title{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+```
+  
