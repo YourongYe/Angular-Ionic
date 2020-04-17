@@ -120,3 +120,11 @@ padding: inner space
   --background: url('/assets/progress-singleplayer/background3.png') 100% 100%;
 }
 ```
+
+# Center (居中)
+```css
+.choice-section{
+  size: "6";
+  text-align: center; // 想要让一个东西居中，一定要对它所在的section进行设置，而不是对这个东西本身
+}
+```
