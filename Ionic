@@ -1,2 +1,5 @@
 # New page
 ionic generate page <page-name>
+
+# Run project
+ionic serve
