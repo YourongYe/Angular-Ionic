@@ -1,18 +1,16 @@
 # class vs id
 class example:
 ```css
-.question-card{
+.question-card{ // 如果html里面是class=“question-card”
   // position: absolute;
   height: 200px;
   width: 300px;
-  // top: 5%;
-  // padding-bottom: 5px;
   visibility: visible;
 }
 ```
 id example:
 ```css
-#balloon-effect{ 
+#balloon-effect{ // 如果html里面是id=“balloon-effect”
   position: absolute;
   width: 100%;
   bottom: -100%;
