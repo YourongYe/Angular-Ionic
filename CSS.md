@@ -112,4 +112,11 @@ padding: inner space
   padding-left: 10px;
 }
 ```
-  
+
+# Background image
+前面加“--”是因为是ion-component而不是纯html component
+```css
+.ion-content{
+  --background: url('/assets/progress-singleplayer/background3.png') 100% 100%;
+}
+```
