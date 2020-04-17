@@ -73,3 +73,19 @@ z-index: 1    （最上层）
   visibility: hidden; // 这个section初始化为隐藏状态，即user看不到；但可以通过某个func来trigger改变这个status，改成visible，这样就可以出现叠加页面
 }
 ```
+# Overlay section
+```css
+.video-container{
+  position: absolute; // 在当前的section里的位置不受限制，不会受section中其他东西的影响；
+  height: 95%;
+  width: 90%;
+}
+```
+
+```css
+.video-container{
+  position: absolute; // 在当前的section里的位置依次往后排，位置由其他东西决定；
+  height: 95%;
+  width: 90%;
+}
+```
