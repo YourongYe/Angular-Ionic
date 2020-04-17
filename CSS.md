@@ -62,3 +62,14 @@ z-index: 1    （最上层）
   overflow: visible; //可以通过滑动被看见，会延长当前页面，这也是默认的设置
 }
 ```
+# Visibility (页面叠加，部分可见)
+```css
+.video-container{
+  position: absolute;
+  height: 95%;
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  visibility: hidden; // 这个section初始化为隐藏状态，即user看不到；但可以通过某个func来trigger改变这个status，改成visible，这样就可以出现叠加页面
+}
+```
