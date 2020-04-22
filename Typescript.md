@@ -24,3 +24,7 @@ function disp(){
 // Calling add() function 
 add(5,6,disp); 
 ```
+```js
+The sum of 5 and 6 is 11.
+This must be printed after addition
+```
