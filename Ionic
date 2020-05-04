@@ -3,3 +3,6 @@ ionic generate page <page-name>
 
 # Run project
 ionic serve
+
+# run android emulator
+ionic cordova run android
