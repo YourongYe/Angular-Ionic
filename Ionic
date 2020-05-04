@@ -5,4 +5,7 @@ ionic generate page <page-name>
 ionic serve
 
 # run android emulator
+ionic cordova prepare android
 ionic cordova run android
+https://ionicframework.com/docs/developing/android
+
